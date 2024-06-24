@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "BPM",
+    "content": "BPMN , PETRI net , BPEl",
+    "departmentID": "1"
+  },
+  {
+    "id": 2,
+    "name": "Database management system",
+    "content": "Query optmization and concurrency control",
+    "departmentID": "1"
+  },
+  {
+    "id": 3,
+    "name": "BPM",
+    "content": "BPMN , PETRI net , BPEl",
+    "departmentID": "1"
+  }
+]
