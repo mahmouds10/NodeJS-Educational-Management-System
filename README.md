@@ -64,48 +64,48 @@ To set up the project locally, follow these steps:
 
 Once the application is running, you can use the API endpoints to manage students, courses, and departments.
 
+
 ## API Endpoints
 
 ### Students
-
--   **GET /students** - Retrieve all students.
--   **POST /students** - Add a new student.
--   **GET /students/**
-    
-    - Retrieve a specific student by ID.
--   **PUT /students/**
-    
-    - Update a specific student by ID.
--   **DELETE /students/**
-    
-    - Delete a specific student by ID.
+- **GET /AllStudents** 
+	- Retrieve all students.
+- **POST /Student** 
+	-  Add a new student.
+- **GET /Student/id** 
+	-  Retrieve a specific student by ID.
+- **PUT /Student/id** 
+	-  Update a specific student by ID.
+- **DELETE /Student/id** 
+	- Delete a specific student by ID.
+- **GET /StudentsInfo** 
+	- Retrieve all students along with their departments and related courses.
 
 ### Courses
 
--   **GET /courses** - Retrieve all courses.
--   **POST /courses** - Add a new course.
--   **GET /courses/**
-    
-    - Retrieve a specific course by ID.
--   **PUT /courses/**
-    
-    - Update a specific course by ID.
--   **DELETE /courses/**
-    - Delete a specific course by ID.
+- **GET /AllCourses** 
+	-  Retrieve all courses.
+- **POST /Course** 
+	-  Add a new course.
+- **GET /Course/id** 
+	-  Retrieve a specific course by ID.
+- **PUT /Course/id** 
+	-  Update a specific course by ID.
+- **DELETE /Course/id** 
+	-  Delete a specific course by ID.
 
 ### Departments
 
--   **GET /departments** - Retrieve all departments.
--   **POST /departments** - Add a new department.
--   **GET /departments/**
-    
-    - Retrieve a specific department by ID.
--   **PUT /departments/**
-    
-    - Update a specific department by ID.
--   **DELETE /departments/**
-    
-    - Delete a specific department by ID.
+- **GET /AllDepartments** 
+	- Retrieve all departments.
+- **POST /Department** 
+	-  Add a new department.
+- **GET /Department/id** 
+	-  Retrieve a specific department by ID.
+- **PUT /Department/id** 	
+	-  Update a specific department by ID.
+- **DELETE /Department/id** 
+	-  Delete a specific department by ID.
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request.
